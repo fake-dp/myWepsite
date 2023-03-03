@@ -6,7 +6,7 @@ const SidebarContainer = styled.div`
   display: flex;
   flex-direction: column;
   width: 200px;
-  height: 100%;
+  height: 100vh;
   background-color: #f1f1f1;
   padding: 20px;
 `;
@@ -14,9 +14,13 @@ const SidebarContainer = styled.div`
 function Sidebar() {
   return (
     <SidebarContainer>
-      <Link to="/about">Page A</Link>
-      <Link to="/projects">Page B</Link>
-      <Link to="/contact">Page C</Link>
+      <Link to="/">Home</Link>
+      <Link to="/about">About</Link>
+      <Link to="/projects">Project</Link>
+      <Link to="/experience">Experience</Link>
+      <Link to="/education">Education</Link>
+      <Link to="/blog">Blog</Link>
+      <Link to="/contact">Contact</Link>
     </SidebarContainer>
   );
 }

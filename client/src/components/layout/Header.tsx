@@ -15,7 +15,7 @@ const HeaderWrapper = styled.div`
 `;
 
 function Header() {
-  return <HeaderWrapper>Wanted Pre-onboarding course</HeaderWrapper>;
+  return <HeaderWrapper>Test</HeaderWrapper>;
 }
 
 export default Header;
