@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-import styled from "styled-components";
 import { AiOutlineHome } from "react-icons/ai";
 import { TbBrandBlogger } from "react-icons/tb";
 import { MdOutlineCastForEducation } from "react-icons/md";
@@ -7,72 +5,45 @@ import { RiContactsBook2Line } from "react-icons/ri";
 import { CgProfile } from "react-icons/cg";
 import { GrProjects } from "react-icons/gr";
 import { MdWorkspacesOutline } from "react-icons/md";
-const SidebarContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  width: 200px;
-  height: 100vh;
-  background-color: #f1f1f1;
-  position: fixed;
-`;
-
-const SidebarText = styled(Link)`
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  color: #000;
-  display: flex;
-  padding: 30px;
-  font-size: 1.2rem;
-  font-weight: 600;
-  border-bottom: 1px solid #ddd;
-  &:hover {
-    background-color: #ddd;
-  }
-  > svg {
-    margin-right: 15px;
-    font-size: 1.5rem;
-    margin-bottom: 2px;
-  }
-`;
+import * as S from "../style/sidebarStyeld";
 
 function Sidebar() {
   return (
-    <SidebarContainer>
-      <SidebarText to="/">
+    <S.SidebarContainer>
+      <S.SidebarText to="/">
         <AiOutlineHome />
         Home
-      </SidebarText>
-      <SidebarText to="/about">
+      </S.SidebarText>
+      <S.SidebarText to="/about">
         <CgProfile />
         About
-      </SidebarText>
+      </S.SidebarText>
 
-      <SidebarText to="/projects">
+      <S.SidebarText to="/projects">
         <GrProjects />
         Project
-      </SidebarText>
+      </S.SidebarText>
 
-      <SidebarText to="/experience">
+      <S.SidebarText to="/experience">
         <MdWorkspacesOutline />
         Experience
-      </SidebarText>
+      </S.SidebarText>
 
-      <SidebarText to="/education">
+      <S.SidebarText to="/education">
         <MdOutlineCastForEducation />
         Education
-      </SidebarText>
+      </S.SidebarText>
 
-      <SidebarText to="/blog">
+      <S.SidebarText to="/blog">
         <TbBrandBlogger />
         Blog
-      </SidebarText>
+      </S.SidebarText>
 
-      <SidebarText to="/contact">
+      <S.SidebarText to="/contact">
         <RiContactsBook2Line />
         Contact
-      </SidebarText>
-    </SidebarContainer>
+      </S.SidebarText>
+    </S.SidebarContainer>
   );
 }
 

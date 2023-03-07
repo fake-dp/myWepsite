@@ -3,15 +3,12 @@ import emailjs from "@emailjs/browser";
 
 const Contact = () => {
   const form = React.useRef(null);
-
   const service_id = process.env.REACT_APP_EMAILJS_SERVICE_ID;
   const template_id = process.env.REACT_APP_EMAILJS_TEMPLATE_ID;
   const public_key = process.env.REACT_APP_EMAILJS_PUBLIC_KEY;
 
   const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-
-    console.log(service_id, template_id, public_key);
 
     emailjs
       .sendForm(
