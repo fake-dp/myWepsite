@@ -1,6 +1,5 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import styled from "styled-components";
 import * as S from "../style/contactStyled";
 const EmailForm = () => {
   const form = React.useRef(null);
@@ -41,7 +40,7 @@ const EmailForm = () => {
 
   return (
     <S.EmailFormWrapper>
-      <S.EmailText>📧 Send Email</S.EmailText>
+      <S.TitleText>📧 Send Email</S.TitleText>
       <S.EmailSubtext>
         메일을 보내주시면, 평일 기준 3일 이내에 답장 드릴게요!
       </S.EmailSubtext>

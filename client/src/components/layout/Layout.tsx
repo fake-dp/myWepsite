@@ -3,7 +3,7 @@ import styled from "styled-components";
 import Footer from "../Footer";
 
 const MainBodyLayout = styled.div`
-  margin-left: 200px;
+  margin-left: 260px;
 `;
 
 function Layout({ children }: any) {

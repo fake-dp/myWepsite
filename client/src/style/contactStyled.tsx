@@ -4,6 +4,69 @@ export const ContactBackground = styled.div`
   width: 100%;
   height: 100%;
   background-color: #006266;
+  min-width: 1200px;
+`;
+
+export const ContactMyWrapper = styled.div`
+  padding-left: 15rem;
+  padding-top: 5rem;
+`;
+
+export const InfoBox = styled.div`
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  min-width: 800px;
+  max-width: 1000px;
+`;
+
+export const InfoWrapper = styled.div`
+  display: flex;
+  border-radius: 10px;
+  padding: 1.5rem;
+  align-items: center;
+  border-bottom: 1px solid #e9ecef;
+  :last-child {
+    border-bottom: none;
+  }
+  &:hover {
+    background-color: #f8f9fa;
+  }
+`;
+
+export const IconSpan = styled.span`
+  width: 50px;
+  height: 50px;
+  margin-right: 1rem;
+  background-color: #1289a7;
+  display: flex;
+  align-items: center;
+  border-radius: 50%;
+  > svg {
+    margin: 0 auto;
+    font-size: 2rem;
+    color: #fff;
+  }
+`;
+
+export const InfoText = styled.p`
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+`;
+
+export const InfoLink = styled.a`
+  font-size: 1rem;
+  color: #868e96;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
 `;
 
 export const FormStyle = styled.form`
@@ -16,19 +79,20 @@ export const FormStyle = styled.form`
 
 export const EmailFormWrapper = styled.div`
   height: 100%;
-  padding: 15rem;
+  padding-left: 15rem;
+  padding-top: 5rem;
   /* background-color: #006266; */
   display: flex;
   flex-direction: column;
   color: #fff;
 `;
 
-export const EmailText = styled.h1`
+export const TitleText = styled.h1`
   color: #fff;
   font-size: 2rem;
   font-weight: 600;
   width: 100%;
-  min-width: 250px;
+  min-width: 500px;
 `;
 
 export const EmailSubtext = styled.p`
@@ -100,6 +164,7 @@ export const ContactTextArea = styled.textarea`
 export const ContactSumbitBtn = styled.input`
   box-sizing: border-box;
   height: 3em;
+  margin-bottom: 5rem;
   cursor: pointer;
   min-width: 800px;
   max-width: 1000px;
