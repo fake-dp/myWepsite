@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export const SidebarContainer = styled.div`
   display: flex;
   flex-direction: column;
-  width: 200px;
+  width: 260px;
   height: 100vh;
   background-color: #f1f1f1;
   position: fixed;

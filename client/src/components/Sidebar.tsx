@@ -5,7 +5,7 @@ import { RiContactsBook2Line } from "react-icons/ri";
 import { CgProfile } from "react-icons/cg";
 import { GrProjects } from "react-icons/gr";
 import { MdWorkspacesOutline } from "react-icons/md";
-import * as S from "../style/sidebarStyeld";
+import * as S from "../style/sidebarStyled";
 
 function Sidebar() {
   return (
