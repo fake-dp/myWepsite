@@ -12,36 +12,36 @@ function Sidebar() {
     <S.SidebarContainer>
       <S.SidebarText to="/">
         <AiOutlineHome />
-        Home
+        <p>Home</p>
       </S.SidebarText>
       <S.SidebarText to="/about">
         <CgProfile />
-        About
+        <p>About</p>
       </S.SidebarText>
 
       <S.SidebarText to="/projects">
         <GrProjects />
-        Project
+        <p>Project</p>
       </S.SidebarText>
 
       <S.SidebarText to="/experience">
         <MdWorkspacesOutline />
-        Experience
+        <p>Experience</p>
       </S.SidebarText>
 
       <S.SidebarText to="/education">
         <MdOutlineCastForEducation />
-        Education
+        <p>Education</p>
       </S.SidebarText>
 
       <S.SidebarText to="/blog">
         <TbBrandBlogger />
-        Blog
+        <p>Blog</p>
       </S.SidebarText>
 
       <S.SidebarText to="/contact">
         <RiContactsBook2Line />
-        Contact
+        <p>Contact</p>
       </S.SidebarText>
     </S.SidebarContainer>
   );
