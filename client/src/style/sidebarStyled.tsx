@@ -6,8 +6,9 @@ export const SidebarContainer = styled.div`
   flex-direction: column;
   width: 260px;
   height: 100vh;
-  background-color: #f1f1f1;
+  background-color: #222f3e;
   position: fixed;
+  z-index: 1;
   @media screen and (max-width: 800px) {
     width: 100px;
   }
@@ -23,6 +24,8 @@ export const SidebarText = styled(Link)`
   font-size: 1.2rem;
   font-weight: 600;
   border-bottom: 1px solid #ddd;
+  color: #fff;
+
   > p {
     @media screen and (max-width: 800px) {
       display: none;
@@ -30,6 +33,7 @@ export const SidebarText = styled(Link)`
   }
   &:hover {
     background-color: #ddd;
+    color: #000;
   }
   > svg {
     margin-right: 15px;

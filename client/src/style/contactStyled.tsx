@@ -4,12 +4,39 @@ export const ContactBackground = styled.div`
   width: 100%;
   height: 100%;
   background-color: #006266;
-  min-width: 1200px;
+  /* display: flex;
+  flex-direction: column; */
+  /* justify-content: center; */
+  align-items: center;
+  /* min-width: 1200px; */
+  @media screen and (max-width: 1200px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 800px;
+  }
+  @media screen and (max-width: 800px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 500px;
+  }
 `;
 
 export const ContactMyWrapper = styled.div`
   padding-left: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
   padding-top: 5rem;
+  @media screen and (max-width: 1200px) {
+    padding-left: 50px;
+  }
+  @media screen and (max-width: 800px) {
+    padding-left: 50px;
+  }
 `;
 
 export const InfoBox = styled.div`
@@ -21,8 +48,15 @@ export const InfoBox = styled.div`
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
-  min-width: 800px;
+  /* min-width: 800px; */
   max-width: 1000px;
+  @media screen and (max-width: 1200px) {
+    width: 500px;
+  }
+
+  @media screen and (max-width: 800px) {
+    width: 350px;
+  }
 `;
 
 export const InfoWrapper = styled.div`
@@ -36,6 +70,10 @@ export const InfoWrapper = styled.div`
   }
   &:hover {
     background-color: #f8f9fa;
+  }
+
+  @media screen and (max-width: 800px) {
+    width: 300px;
   }
 `;
 
@@ -85,6 +123,13 @@ export const EmailFormWrapper = styled.div`
   display: flex;
   flex-direction: column;
   color: #fff;
+  @media screen and (max-width: 1200px) {
+    padding-left: 350px;
+  }
+
+  @media screen and (max-width: 800px) {
+    padding-left: 350px;
+  }
 `;
 
 export const TitleText = styled.h1`
@@ -111,6 +156,15 @@ export const ContactInputWrapper = styled.div`
   gap: 3rem;
   min-width: 800px;
   max-width: 1000px;
+  @media screen and (max-width: 1200px) {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  @media screen and (max-width: 800px) {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
 `;
 
 export const ContactWrapper = styled.div`
@@ -139,11 +193,18 @@ export const ContactInput = styled.input`
     border-color: rgba(255, 255, 255, 1);
     outline: none;
   }
+  @media screen and (max-width: 1200px) {
+    width: 500px;
+  }
+
+  @media screen and (max-width: 800px) {
+    width: 300px;
+  }
 `;
 
 export const ContactTextArea = styled.textarea`
   border-bottom: 1px solid rgba(255, 255, 255, 0.4);
-  min-width: 800px;
+  /* min-width: 800px; */
   max-width: 1000px;
   padding: 0.5em;
   margin-top: 10px;
@@ -158,6 +219,15 @@ export const ContactTextArea = styled.textarea`
   &:focus {
     border-color: rgba(255, 255, 255, 1);
     outline: none;
+  }
+  @media screen and (max-width: 1200px) {
+    min-width: 500px;
+    max-width: 500px;
+  }
+
+  @media screen and (max-width: 800px) {
+    min-width: 300px;
+    max-width: 300px;
   }
 `;
 
@@ -179,5 +249,13 @@ export const ContactSumbitBtn = styled.input`
   &:hover {
     background-color: #fff;
     color: #1b1464;
+  }
+  @media screen and (max-width: 1200px) {
+    min-width: 500px;
+    max-width: 500px;
+  }
+  @media screen and (max-width: 800px) {
+    min-width: 300px;
+    max-width: 300px;
   }
 `;

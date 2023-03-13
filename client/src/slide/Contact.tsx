@@ -1,5 +1,5 @@
 import EmailForm from "../components/EmailForm";
-import * as S from "../style/contactStyled";
+import * as S from "../style/ContactStyled";
 import { SiVelog } from "react-icons/si";
 import { RiKakaoTalkFill } from "react-icons/ri";
 import { AiOutlineMail } from "react-icons/ai";

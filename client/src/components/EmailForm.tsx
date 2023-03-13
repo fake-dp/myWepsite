@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import * as S from "../style/contactStyled";
+import * as S from "../style/ContactStyled";
 const EmailForm = () => {
   const form = React.useRef(null);
   const service_id = process.env.REACT_APP_EMAILJS_SERVICE_ID;

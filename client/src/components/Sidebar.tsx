@@ -1,12 +1,11 @@
 import { AiOutlineHome } from "react-icons/ai";
-import { TbBrandBlogger } from "react-icons/tb";
 import { MdOutlineCastForEducation } from "react-icons/md";
 import { RiContactsBook2Line } from "react-icons/ri";
 import { CgProfile } from "react-icons/cg";
 import { GrProjects } from "react-icons/gr";
 import { MdWorkspacesOutline } from "react-icons/md";
-import * as S from "../style/sidebarStyled";
-
+import { VscProject } from "react-icons/vsc";
+import * as S from "../style/SidebarStyled";
 function Sidebar() {
   return (
     <S.SidebarContainer>
@@ -16,12 +15,7 @@ function Sidebar() {
       </S.SidebarText>
       <S.SidebarText to="/about">
         <CgProfile />
-        <p>About</p>
-      </S.SidebarText>
-
-      <S.SidebarText to="/projects">
-        <GrProjects />
-        <p>Project</p>
+        <p>About Me</p>
       </S.SidebarText>
 
       <S.SidebarText to="/experience">
@@ -29,14 +23,14 @@ function Sidebar() {
         <p>Experience</p>
       </S.SidebarText>
 
+      <S.SidebarText to="/projects">
+        <VscProject />
+        <p>Project</p>
+      </S.SidebarText>
+
       <S.SidebarText to="/education">
         <MdOutlineCastForEducation />
         <p>Education</p>
-      </S.SidebarText>
-
-      <S.SidebarText to="/blog">
-        <TbBrandBlogger />
-        <p>Blog</p>
       </S.SidebarText>
 
       <S.SidebarText to="/contact">
