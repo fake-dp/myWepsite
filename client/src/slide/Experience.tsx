@@ -21,7 +21,7 @@ const Experience = () => {
       src: "https://detta.design/image-seo-commision-platform-detta.png",
       description: [
         "1. UI 최신화 퍼블리싱 & 개발",
-        "2. portpolio 이미지 등록",
+        "2. portfolio 이미지 등록",
         "3. redux & context api를 통한 상태 관리",
         "4. paaaafdafdf",
         "5. adfasdfasdfasdfadfs",
@@ -30,7 +30,7 @@ const Experience = () => {
   ];
 
   return (
-    <S.ExperienceWrapper>
+    <S.ExperienceWrapper id="experience">
       <S.ExperienceContainer>
         <S.TitleText>🍎 Experience</S.TitleText>
         {WorkExperience.map((work, index) => (

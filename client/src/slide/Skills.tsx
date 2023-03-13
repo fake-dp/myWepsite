@@ -1,10 +1,11 @@
 import React from "react";
 import * as S from "../style/AboutStyled";
-const Education = () => {
+
+const Skills = () => {
   return (
-    <S.AboutWrapper id="education">
+    <S.AboutWrapper id="skill">
       <S.AboutContainer>
-        <S.TitleText>🍉 Education</S.TitleText>
+        <S.TitleText>🍋 Skills</S.TitleText>
 
         <S.AboutText>
           성장의 원동력은 성실과, 꾸준함이라고 생각합니다. <br />
@@ -18,4 +19,4 @@ const Education = () => {
   );
 };
 
-export default Education;
+export default Skills;

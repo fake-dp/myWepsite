@@ -11,7 +11,7 @@ const About = () => {
   ];
 
   return (
-    <S.AboutWrapper>
+    <S.AboutWrapper id="about">
       <S.AboutContainer>
         <S.TitleText>🥝 About Me!</S.TitleText>
         <S.InfoWrapper>

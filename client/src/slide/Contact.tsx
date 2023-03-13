@@ -36,7 +36,7 @@ const Contact = () => {
   ];
 
   return (
-    <S.ContactBackground>
+    <S.ContactBackground id="contact">
       <S.ContactMyWrapper>
         <S.TitleText>🤙 Contact me!</S.TitleText>
         <S.InfoBox>

@@ -9,11 +9,12 @@ export const ExperienceWrapper = styled.div`
   height: 100%;
   color: #fff;
   background-color: #341f97;
+  padding: 7rem 0 7rem 0;
 `;
 
 export const ExperienceContainer = styled.div`
   height: 100%;
-  padding-top: 5rem;
+
   width: 800px;
   display: flex;
   flex-direction: column;

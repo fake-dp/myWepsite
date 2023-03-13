@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 export const SidebarContainer = styled.div`
   display: flex;
@@ -14,7 +14,7 @@ export const SidebarContainer = styled.div`
   }
 `;
 
-export const SidebarText = styled(Link)`
+export const SidebarText = styled.div`
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -25,7 +25,7 @@ export const SidebarText = styled(Link)`
   font-weight: 600;
   border-bottom: 1px solid #ddd;
   color: #fff;
-
+  cursor: pointer;
   > p {
     @media screen and (max-width: 800px) {
       display: none;
