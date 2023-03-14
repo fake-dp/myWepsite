@@ -1,6 +1,15 @@
 import * as S from "../style/AboutStyled";
+
+interface Info {
+  name: string;
+  email: string;
+  phone: string;
+  github: string;
+  location: string;
+}
+
 const About = () => {
-  const MyInfo = [
+  const MyInfo: Info[] = [
     {
       name: "이장희",
       email: "babybye777@gmail.com",

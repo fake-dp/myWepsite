@@ -5,8 +5,15 @@ import { RiKakaoTalkFill } from "react-icons/ri";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsGithub } from "react-icons/bs";
 
+interface IContactInfo {
+  icon: JSX.Element;
+  social: string;
+  link: string;
+  href: string;
+}
+
 const Contact = () => {
-  const contackInfo = [
+  const contackInfo: IContactInfo[] = [
     {
       icon: <AiOutlineMail />,
       social: "email",
