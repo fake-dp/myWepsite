@@ -14,16 +14,16 @@ export const ExperienceWrapper = styled.div`
 
 export const ExperienceContainer = styled.div`
   height: 100%;
-
   width: 800px;
   display: flex;
   flex-direction: column;
   @media screen and (max-width: 1200px) {
-    padding-left: 350px;
+    /* padding-left: 350px; */
+    width: 600px;
   }
 
   @media screen and (max-width: 800px) {
-    padding-left: 450px;
+    padding-left: 250px;
   }
 `;
 

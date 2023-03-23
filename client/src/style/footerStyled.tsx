@@ -11,4 +11,5 @@ export const FooterContainer = styled.div`
   justify-content: center;
   background-color: #6f1e51;
   color: #fff;
+  z-index: 5;
 `;

@@ -12,14 +12,13 @@ const Education = () => {
   const EducationInfo: IEducationInfo[] = [
     {
       id: 0,
-      title: "프리온보딩 프론트엔드 챌린지 3월",
-      date: "2023.03 ~ 2021.04",
-      description: [
-        "1. 로그인, 인증, 레이아웃 컴포넌트 학습",
-        "2. JWT, 보안, API 호출, 로그아웃",
-        "3. 로그인 상태에 따라 라우터 접근 권한 제어",
+      title: "프리온보딩 프론트엔드 챌린지 - (Todo List)",
+      date: "2023.02 ~ 2021.03",
+      description: ["1. CRUD 기능 구현", "2. 토큰 유무에 따른 리다이렉트"],
+      link: [
+        " https://wanted-fake-dp.vercel.app/",
+        "https://github.com/fake-dp/wanted-pre-onboarding-frontend",
       ],
-      link: ["https://coin-typescript.vercel.app/"],
     },
     {
       id: 1,
@@ -65,6 +64,7 @@ const Education = () => {
     <S.EdueWrapper id="education">
       <S.EdueContainer>
         <S.TitleText>🍉 Education</S.TitleText>
+        <S.EdueText>코딩 교육기관 및 강의를 통해 학습을 하였습니다.</S.EdueText>
         {EducationInfo.map((info) => (
           <S.EducationWrapper key={info.id}>
             <S.SubText>{info.title}</S.SubText>

@@ -37,6 +37,20 @@ export const TitleText = styled.h1`
   letter-spacing: 0.1rem;
 `;
 
+export const EdueText = styled.p`
+  font-size: 1.5rem;
+  font-weight: 600;
+  width: 100%;
+  min-width: 500px;
+  margin-top: 1rem;
+  line-height: 2.3rem;
+  margin-bottom: 10px;
+  @media screen and (max-width: 800px) {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+`;
+
 export const EducationWrapper = styled.div`
   width: 100%;
   height: 100%;
