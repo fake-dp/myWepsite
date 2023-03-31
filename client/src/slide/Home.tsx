@@ -1,14 +1,7 @@
-import * as S from "../style/HomeStyled";
+import React from "react";
 
 const Home = () => {
-  return (
-    <>
-      <S.HomeWrapper>
-        <S.MyNameText>LEE JANG HE</S.MyNameText>
-        <S.AutoText>Welcome to my website.</S.AutoText>
-      </S.HomeWrapper>
-    </>
-  );
+  return <div>Home</div>;
 };
 
 export default Home;

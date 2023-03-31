@@ -11,11 +11,11 @@ const MainBodyLayout = styled.div`
 
 function Layout({ children }: any) {
   return (
-    <>
+    <div style={{ display: "flex" }}>
       <Sidebar />
-      <MainBodyLayout>{children}</MainBodyLayout>
-      <Footer />
-    </>
+      <div style={{ flex: 9 }}>{children}</div>
+      {/* <Footer /> */}
+    </div>
   );
 }
 

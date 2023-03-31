@@ -1,8 +1,7 @@
-import { FooterContainer } from "../style/FooterStyled";
+import React from "react";
+
 const Footer = () => {
-  return (
-    <FooterContainer>© 2023. fake-dp All rights reserved.</FooterContainer>
-  );
+  return <div>Footer</div>;
 };
 
 export default Footer;

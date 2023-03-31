@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import * as S from "../style/ContactStyled";
+
 const EmailForm = () => {
   const form = React.useRef(null);
   const service_id = process.env.REACT_APP_EMAILJS_SERVICE_ID;
@@ -38,33 +38,7 @@ const EmailForm = () => {
       );
   };
 
-  return (
-    <S.EmailFormWrapper>
-      <S.TitleText>📧 Send Email</S.TitleText>
-      <S.EmailSubtext>
-        메일을 보내주시면, 평일 기준 3일 이내에 답장 드릴게요!
-      </S.EmailSubtext>
-      <S.FormStyle ref={form} onSubmit={sendEmail}>
-        <S.ContactInputWrapper>
-          <S.ContactWrapper>
-            <S.LabelText>Name</S.LabelText>
-            <S.ContactInput type="text" name="user_name" />
-          </S.ContactWrapper>
-
-          <S.ContactWrapper>
-            <S.LabelText>Email</S.LabelText>
-            <S.ContactInput type="email" name="user_email" />
-          </S.ContactWrapper>
-        </S.ContactInputWrapper>
-
-        <S.ContactWrapper>
-          <S.LabelText>Message</S.LabelText>
-          <S.ContactTextArea name="message" />
-          <S.ContactSumbitBtn type="submit" value="Send" />
-        </S.ContactWrapper>
-      </S.FormStyle>
-    </S.EmailFormWrapper>
-  );
+  return <div>ddd</div>;
 };
 
 export default EmailForm;
