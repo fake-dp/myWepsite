@@ -38,7 +38,7 @@ const EmailForm = () => {
       );
   };
 
-  return <div>ddd</div>;
+  return <div>dddㅁㄴㅇㄹㅁㄴㅇㄹ</div>;
 };
 
 export default EmailForm;
