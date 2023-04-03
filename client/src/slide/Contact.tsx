@@ -1,21 +1,16 @@
-import React from "react";
 import EmailForm from "../components/EmailForm";
 import styled from "styled-components";
-import { SlideLayoutWrapper } from "../style/CommonLayout";
+import * as S from "../style/CommonLayout";
 const Contact = () => {
   return (
-    <SlideLayoutWrapper id="contact">
-      <Test>
-        <EmailForm />
-      </Test>
-    </SlideLayoutWrapper>
+    <S.SlideLayoutWrapper id="contact">
+      <S.BackgroundWrapper props={"#444654"}>
+        <S.PaddingWrapper>
+          <S.Title>Contact</S.Title>
+        </S.PaddingWrapper>
+      </S.BackgroundWrapper>
+    </S.SlideLayoutWrapper>
   );
 };
 
 export default Contact;
-
-export const Test = styled.div`
-  background-color: red;
-  width: 100%;
-  height: 1000px;
-`;

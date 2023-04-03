@@ -1,11 +1,14 @@
-import React from "react";
-import { SlideLayoutWrapper } from "../style/CommonLayout";
 import styled from "styled-components";
+import * as S from "../style/CommonLayout";
 const Skills = () => {
   return (
-    <SlideLayoutWrapper id="skills">
-      <Test>skill</Test>
-    </SlideLayoutWrapper>
+    <S.SlideLayoutWrapper id="skills">
+      <S.BackgroundWrapper props={"#444654"}>
+        <S.PaddingWrapper>
+          <S.Title>Skills</S.Title>
+        </S.PaddingWrapper>
+      </S.BackgroundWrapper>
+    </S.SlideLayoutWrapper>
   );
 };
 

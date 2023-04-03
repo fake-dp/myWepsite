@@ -45,7 +45,7 @@ export const HomeWrapper = styled(SlideLayoutWrapper)`
       overflow: hidden;
       white-space: nowrap;
       margin: 0 auto;
-      color: #fff;
+      color: #d1d5db;
       letter-spacing: 0.15em;
       border-right: 0.15em solid orange;
       animation: ${typing} 2s steps(20, end), ${blink} 0.75s step-end infinite;

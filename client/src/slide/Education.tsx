@@ -1,18 +1,16 @@
 import React from "react";
 import styled from "styled-components";
-import { SlideLayoutWrapper } from "../style/CommonLayout";
+import * as S from "../style/CommonLayout";
 const Education = () => {
   return (
-    <SlideLayoutWrapper id="education">
-      <Test>Education</Test>
-    </SlideLayoutWrapper>
+    <S.SlideLayoutWrapper id="education">
+      <S.BackgroundWrapper props={"#343541"}>
+        <S.PaddingWrapper>
+          <S.Title>Education</S.Title>
+        </S.PaddingWrapper>
+      </S.BackgroundWrapper>
+    </S.SlideLayoutWrapper>
   );
 };
 
 export default Education;
-
-export const Test = styled.div`
-  background-color: blue;
-  width: 100%;
-  height: 700px;
-`;
