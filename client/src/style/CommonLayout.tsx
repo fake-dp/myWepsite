@@ -25,6 +25,16 @@ export const PaddingWrapper = styled.div`
   padding: 3rem;
   margin-top: 3rem;
   margin-bottom: 3rem;
+  min-width: 800px;
+  @media (max-width: 1024px) {
+    min-width: 600px;
+  }
+  @media (max-width: 768px) {
+    min-width: 400px;
+  }
+  @media (max-width: 480px) {
+    min-width: 300px;
+  }
 `;
 
 export const Title = styled.h1`
