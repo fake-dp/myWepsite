@@ -3,7 +3,7 @@ import * as S from "../style/CommonLayout";
 const Skills = () => {
   return (
     <S.SlideLayoutWrapper id="skills">
-      <S.BackgroundWrapper props={"#444654"}>
+      <S.BackgroundWrapper props={"#343541"}>
         <S.PaddingWrapper>
           <S.Title>Skills</S.Title>
         </S.PaddingWrapper>

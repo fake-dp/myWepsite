@@ -14,7 +14,7 @@ const About = () => {
 
   return (
     <S.SlideLayoutWrapper id="about">
-      <S.BackgroundWrapper props={"#343541"}>
+      <S.BackgroundWrapper props={"#444654"}>
         <S.PaddingWrapper>
           <S.Title>About Me!</S.Title>
           <A.InfoWrapper>

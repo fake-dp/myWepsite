@@ -4,7 +4,7 @@ import * as S from "../style/CommonLayout";
 const Contact = () => {
   return (
     <S.SlideLayoutWrapper id="contact">
-      <S.BackgroundWrapper props={"#444654"}>
+      <S.BackgroundWrapper props={"#343541"}>
         <S.PaddingWrapper>
           <S.Title>Contact</S.Title>
         </S.PaddingWrapper>

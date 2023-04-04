@@ -43,7 +43,7 @@ const Experience = () => {
 
   return (
     <S.SlideLayoutWrapper id="experience">
-      <S.BackgroundWrapper props={"#343541"}>
+      <S.BackgroundWrapper props={"#444654"}>
         <S.PaddingWrapper>
           <S.Title>Experience</S.Title>
           <E.CompanyText>
