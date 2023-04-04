@@ -24,6 +24,11 @@ export const ContentsWrapper = styled.div`
   border: 1px solid #d1d5db;
   border-radius: 10px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
 
   h4 {
     font-size: 1.5rem;
@@ -47,7 +52,7 @@ export const ContentsWrapper = styled.div`
     color: #d1d5db;
     text-decoration: none;
     &:hover {
-      color: yellow;
+      color: rgba(32, 33, 35, 1);
     }
   }
 
