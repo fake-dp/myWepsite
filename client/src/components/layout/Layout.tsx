@@ -10,7 +10,7 @@ const MainSection = styled.div`
   position: relative;
   flex: 1;
   height: 100%;
-  margin-left: 15%;
+  margin-left: 14%;
   display: flex;
   justify-content: center;
   align-items: center;

@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
-
+import { SlPaperPlane } from "react-icons/sl";
+import * as S from "../style/ContactStyled";
 const EmailForm = () => {
   const form = React.useRef(null);
   const service_id = process.env.REACT_APP_EMAILJS_SERVICE_ID;
@@ -38,7 +39,44 @@ const EmailForm = () => {
       );
   };
 
-  return <div>dddㅁㄴㅇㄹㅁㄴㅇㄹ</div>;
+  return (
+    <S.EmailWrapper>
+      <h4>📧 Send Email</h4>
+      <p>메일을 보내주시면, 평일 기준 3일 이내에 답장 드릴게요!</p>
+      <S.FormSubmit ref={form} onSubmit={sendEmail}>
+        <S.InputWrapper>
+          <S.BoxWrapper>
+            <label>Name</label>
+            <S.Input
+              type="text"
+              name="user_name"
+              placeholder="write your name..."
+            />
+          </S.BoxWrapper>
+
+          <S.BoxWrapper marginLeft={true}>
+            <label>Email</label>
+            <S.Input
+              type="email"
+              name="user_email"
+              placeholder="write your email..."
+            />
+          </S.BoxWrapper>
+        </S.InputWrapper>
+
+        <S.TextAreaWrapper>
+          <label>Message</label>
+          <S.TextArea name="message" placeholder="Send a message..." />
+          <button type="submit" value="Send">
+            <SlPaperPlane />
+          </button>
+        </S.TextAreaWrapper>
+      </S.FormSubmit>
+      <S.CopyRightText>
+        © Copyright 2023 fake-dp. All rights reserved
+      </S.CopyRightText>
+    </S.EmailWrapper>
+  );
 };
 
 export default EmailForm;

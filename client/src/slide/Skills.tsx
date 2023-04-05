@@ -13,9 +13,3 @@ const Skills = () => {
 };
 
 export default Skills;
-
-export const Test = styled.div`
-  background-color: blue;
-  width: 100%;
-  height: 700px;
-`;

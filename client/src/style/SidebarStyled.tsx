@@ -8,8 +8,8 @@ export const SidebarWrapper = styled.div`
   top: 0;
   left: 0;
   height: 100vh;
-  width: 15%;
-  max-width: 320px;
+  width: 14%;
+  /* max-width: 320px; */
 
   @media screen and (max-width: 1000px) {
     display: none;
