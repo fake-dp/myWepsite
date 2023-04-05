@@ -10,7 +10,7 @@ export const SidebarWrapper = styled.div`
   height: 100vh;
   width: 14%;
   /* max-width: 320px; */
-
+  font-family: "Roboto", sans-serif;
   @media screen and (max-width: 1000px) {
     display: none;
   }

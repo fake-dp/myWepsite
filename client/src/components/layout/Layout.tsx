@@ -15,6 +15,7 @@ const MainSection = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  font-family: "Roboto", sans-serif;
   @media screen and (max-width: 1000px) {
     margin-left: 0;
   }
