@@ -1,17 +1,8 @@
-import styled from "styled-components";
 import * as S from "../style/CommonLayout";
 import * as A from "../style/AboutStyled";
-const About = () => {
-  const MyInfo = [
-    {
-      name: "이장희",
-      email: "babybye777@gmail.com",
-      phone: "010-6812-3470",
-      github: "https://github.com/fake-dp",
-      location: "서울 광진구",
-    },
-  ];
+import { MyInfo } from "../infoData/InfoMyData";
 
+const About = () => {
   return (
     <S.SlideLayoutWrapper id="about">
       <S.BackgroundWrapper props={"#444654"}>

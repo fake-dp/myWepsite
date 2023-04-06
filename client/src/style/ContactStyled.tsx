@@ -71,7 +71,7 @@ export const ContactLinkWrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 120px;
+  width: 130px;
   height: 30px;
   > a {
     font-size: 0.91rem;
