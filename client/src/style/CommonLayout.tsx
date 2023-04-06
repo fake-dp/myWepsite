@@ -4,6 +4,26 @@ interface IProps {
   props: string | number;
 }
 
+export const MainBodyLayout = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+`;
+
+export const MainSection = styled.div`
+  position: relative;
+  flex: 1;
+  height: 100%;
+  margin-left: 14%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+  @media screen and (max-width: 1000px) {
+    margin-left: 0;
+  }
+`;
+
 export const SlideLayoutWrapper = styled.div`
   width: 100%;
   height: 100%;

@@ -3,8 +3,9 @@ import {
   IWorkExperience,
   IEducationInfo,
   IContactInfo,
+  ISkillsInfo,
+  IOtherSkills,
 } from "../types/InfoTypes";
-
 import { SiVelog } from "react-icons/si";
 import { RiKakaoTalkFill } from "react-icons/ri";
 import { AiOutlineMail } from "react-icons/ai";
@@ -20,7 +21,57 @@ export const MyInfo: IAboutInfo[] = [
     location: "서울 광진구",
   },
 ];
+
 // Skills
+export const SkillsInfo: ISkillsInfo[] = [
+  {
+    id: 1,
+    title: "[ JavaScript ]",
+    description: [
+      "- 자바스크립트를 활용하여 html & css를 조작하여 동적인 웹 페이지를 만들 수 있습니다.",
+      "- 기본적인 문법에 대한 이해가 있으며 함수를 만들어 사용 할 수 있습니다.",
+      "- 비동기 처리에 대한 이해가 있으며 Promise, async/await를 사용 할 수 있습니다.",
+      "- DOM 조작에 대한 이해가 있으며 이벤트 핸들링을 할 수 있습니다.",
+      "- 자바스크립트를 활용하여 다양한 토이 프로젝트를 진행 한 경험이 있습니다.",
+    ],
+  },
+  {
+    id: 2,
+    title: "[ React ]",
+    description: [
+      "- 상태관리를 통해 데이터를 다룰수 있습니다.",
+      "- React Hooks를 사용하여 컴포넌트를 만들 수 있습니다.",
+      "- React Router를 사용하여 SPA를 만들 수 있습니다.",
+      "- 필요에 따라 Hook을 사용하여 개발 할 수 있습니다.",
+      "- http 통신은 axios를 사용하며 데이터 바인딩을 할 수 있습니다.",
+      "- Context Api & recoil을 활용하여 전역 상태 관리를 할 수 있습니다.",
+    ],
+  },
+  {
+    id: 3,
+    title: "[ Styled-components ]",
+    description: [
+      "- 컴포넌트 단위로 스타일을 관리 할 수 있습니다.",
+      "- props를 활용하여 동적인 스타일을 적용 할 수 있습니다.",
+      "- 재사용과 확장성을 고려하여 스타일을 작성 할 수 있습니다.",
+    ],
+  },
+];
+
+export const OtherSkills: IOtherSkills[] = [
+  {
+    id: 1,
+    title: "[ Other Skills ]",
+    description: [
+      "- Node.js, Express를 활용하여 서버를 구축 할 수 있습니다.",
+      "- 백엔드와 협업하기 위한 Swagger와 Postman을 사용 할 수 있습니다.",
+      "- Git과 GitLab을 사용하여 협업을 할 수 있습니다.",
+      "- Jira를 사용하여 프로젝트를 관리 할 수 있습니다.",
+      "- Figma와 illustrator를 사용하여 간단한 웹 디자인을 할 수 있습니다.",
+      "- Axios와 GraphQL을 사용하여 데이터를 받아올 수 있습니다.",
+    ],
+  },
+];
 
 // Expreience
 export const WorkExperience: IWorkExperience[] = [

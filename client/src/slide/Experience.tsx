@@ -19,7 +19,6 @@ const Experience = () => {
                 <h4>{work.position}</h4>
                 <p>{work.mainDecsription}</p>
               </div>
-
               <div>
                 <p>기술 : {work.stack}</p>
                 <a href={work.link} target="_blank" rel="noreferrer">

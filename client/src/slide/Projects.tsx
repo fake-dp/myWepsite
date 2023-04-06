@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import * as S from "../style/CommonLayout";
+
 const Projects = () => {
   return (
     <S.SlideLayoutWrapper id="project">

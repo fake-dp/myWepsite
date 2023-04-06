@@ -1,6 +1,7 @@
 import EmailForm from "../components/EmailForm";
 import * as S from "../style/CommonLayout";
 import ContactInfo from "../components/ContactInfo";
+
 const Contact = () => {
   return (
     <S.SlideLayoutWrapper id="contact">

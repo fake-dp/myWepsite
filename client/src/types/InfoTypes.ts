@@ -8,6 +8,18 @@ export interface IAboutInfo {
   location: string;
 }
 
+export interface ISkillsInfo {
+  id: number;
+  title: string;
+  description: string[];
+}
+
+export interface IOtherSkills {
+  id: number;
+  title: string;
+  description: string[];
+}
+
 export interface IWorkExperience {
   link: string;
   position: string;
