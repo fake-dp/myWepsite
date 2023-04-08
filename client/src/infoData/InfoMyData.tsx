@@ -5,6 +5,7 @@ import {
   IContactInfo,
   ISkillsInfo,
   IOtherSkills,
+  IProjectInfo,
 } from "../types/InfoTypes";
 import { SiVelog } from "react-icons/si";
 import { RiKakaoTalkFill } from "react-icons/ri";
@@ -106,6 +107,42 @@ export const WorkExperience: IWorkExperience[] = [
 ];
 
 // Projects
+export const ProjectInfo: IProjectInfo[] = [
+  {
+    id: 0,
+    title: "Test",
+    period: "2021.07 ~ 2021.08",
+    subdescription:
+      "Detta! 서비스 프론트 엔드 개발을 메인으로a 담= 및 컴포넌트 개발비스 프론트 엔드 개발을 메인으로a 담= 및 컴포넌트 개발 비스 프론트 엔드 개발을 메인으로a 담= 및 컴포넌트 개발",
+    stack: "react, styled-components, redux & context api",
+    deploy: "https://detta.design/",
+    image: "https://source.unsplash.com/random/300×300",
+    github: "test",
+    blog: "test",
+    description: [
+      "- 전반적인 웹 프론트 전체 개발",
+      "- 웹 퍼블리싱 작업",
+      "- 작업 효율을 고려하여 재사용과 확장성을 고려한 컴포=",
+    ],
+  },
+  {
+    id: 1,
+    title: "DTest",
+    period: "2021.07 ~ 2021.08",
+    subdescription:
+      "Detta! 서비스 프론트 엔드 개발을 메인으로 담당하여 프로=포넌트 개발",
+    stack: "react, styled-components, redux & context api",
+    deploy: "https://detta.design/",
+    image: "https://source.unsplash.com/random/300×300",
+    github: "test",
+    blog: "test",
+    description: [
+      "- 전반적인 웹 프론트 전체 개발",
+      "- 웹 퍼블리싱 작업",
+      "- 작업 효율을 고려하여 재사용과 확장성을 고려한 컴포넌트 =",
+    ],
+  },
+];
 
 //  EducationInfo
 export const EducationInfo: IEducationInfo[] = [

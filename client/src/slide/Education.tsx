@@ -28,8 +28,8 @@ const Education = () => {
                 ))}
               </ul>
               <E.SubTitleP>링크</E.SubTitleP>
-              {info.link.map((link) => (
-                <a href={link} target="_blank" rel="noreferrer">
+              {info.link.map((link, idx) => (
+                <a key={idx} href={link} target="_blank" rel="noreferrer">
                   {link}
                 </a>
               ))}

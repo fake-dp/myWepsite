@@ -29,6 +29,19 @@ export interface IWorkExperience {
   stack: string;
 }
 
+export interface IProjectInfo {
+  id: number;
+  title: string;
+  period: string;
+  subdescription: string;
+  stack: string;
+  deploy: string;
+  image: string;
+  github: string;
+  blog: string;
+  description: string[];
+}
+
 export interface IEducationInfo {
   id: number;
   title: string;
