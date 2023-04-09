@@ -110,13 +110,14 @@ export const WorkExperience: IWorkExperience[] = [
 export const ProjectInfo: IProjectInfo[] = [
   {
     id: 0,
-    title: "My Portfolio Website",
+    title: "My Portfolio Website (개인)",
     period: "2023.03 ~ 2023.04",
     subdescription:
       "Chat gpt의 컨셉의 포트폴리오 웹사이트를 만들어보았습니다. 타입스크립트를 활용하여 데이터에 타입을 지정하였고, 폴더의 컨셉에 맞게 컴포넌트를 분류하였습니다. 또 한 미디어 쿼리를 적용하여 반응형으로 만들었으며 중간 중간 인터렉티브한 효과를 넣어 재미를 더했습니다.",
     stack: "react, styled-components, typescript",
     deploy: "https://my-wepsite-fake-dp.vercel.app/",
-    image: "https://source.unsplash.com/random/300×300",
+    image:
+      "https://user-images.githubusercontent.com/123337284/230784980-4829764b-f9c7-4852-bda7-00b35c2592ca.png",
     github: "https://github.com/fake-dp/myWepsite",
     blog: "test",
     description: [
@@ -127,7 +128,7 @@ export const ProjectInfo: IProjectInfo[] = [
   },
   {
     id: 1,
-    title: "JS Challenge 14",
+    title: "JS Challenge 14 (개인)",
     period: "2022.12-2023.02",
     subdescription:
       "자바스크립트 학습을 목표로한 미니 프로젝트 입니다. 오직 자바스크립트만을 활용하여 14가지의 사이드 프로젝트를 만들어보는 챌린지이며, 챌린지를 통해 자바스크립트의 기본적인 문법과 돔을 조작하고 다양한 함수와 이벤트를 활용하여 프로젝트를 진행하였습니다.",
