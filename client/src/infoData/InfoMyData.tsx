@@ -110,6 +110,24 @@ export const WorkExperience: IWorkExperience[] = [
 export const ProjectInfo: IProjectInfo[] = [
   {
     id: 0,
+    title: "Dev Log (팀프로젝트)",
+    period: "2023.03 ~ ",
+    subdescription:
+      "Velog를 모티브로 하여 개발 공부를 기록 할 수 있는 기슬 블로그를 제작하였습니다. 이프로젝트를 통해 recoil을 사용하여 전역 상태 관리를 할 수 있었고, toast ui editor를 사용하여 블로그 포스팅 기능을 구현 할 수 있었습니다.",
+    stack: "react, styled-components, recoil",
+    deploy: "http://52.79.183.224/",
+    image:
+      "https://user-images.githubusercontent.com/75570030/233391277-da0e96b5-bb7a-42bc-8812-6aea493f1c2f.png",
+    github: "https://github.com/fake-dp/Belog_front",
+    blog: "",
+    description: [
+      "- toast ui editor를 사용하여 블로그 포스팅 기능 구현",
+      "- 로그인 & 회원가입 기능 구현",
+      "- 무한스크롤 기능 구현",
+    ],
+  },
+  {
+    id: 1,
     title: "My Portfolio Website (개인)",
     period: "2023.03 ~ 2023.04",
     subdescription:
@@ -127,7 +145,7 @@ export const ProjectInfo: IProjectInfo[] = [
     ],
   },
   {
-    id: 1,
+    id: 2,
     title: "JS Challenge 14 (개인)",
     period: "2022.12-2023.02",
     subdescription:
