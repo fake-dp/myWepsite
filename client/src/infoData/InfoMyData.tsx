@@ -115,7 +115,7 @@ export const ProjectInfo: IProjectInfo[] = [
     subdescription:
       "Velog를 모티브로 하여 개발 공부를 기록 할 수 있는 기슬 블로그를 제작하였습니다. 이프로젝트를 통해 recoil을 사용하여 전역 상태 관리를 할 수 있었고, toast ui editor를 사용하여 블로그 포스팅 기능을 구현 할 수 있었습니다.",
     stack: "react, styled-components, recoil",
-    deploy: "http://52.79.183.224/",
+    deploy: "http://13.125.93.217/",
     image:
       "https://user-images.githubusercontent.com/75570030/233391277-da0e96b5-bb7a-42bc-8812-6aea493f1c2f.png",
     github: "https://github.com/fake-dp/Belog_front",
