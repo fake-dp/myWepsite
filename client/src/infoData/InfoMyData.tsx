@@ -77,9 +77,9 @@ export const OtherSkills: IOtherSkills[] = [
 // Expreience
 export const WorkExperience: IWorkExperience[] = [
   {
-    link: "https://detta.design/",
+    link: "#",
     position: "#1. detta! 서비스 프론트 개발 (React)",
-    linkName: "Detta",
+    linkName: "Detta (서비스 종료)",
     mainDecsription:
       "- detta 서비스 프론트 엔드 개발을 메인으로 담당하여 프로젝트 구조 설계 및 컴포넌트 개발",
     stack: "react, styled-components, redux & context api",

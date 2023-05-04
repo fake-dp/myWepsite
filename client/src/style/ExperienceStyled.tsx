@@ -47,7 +47,7 @@ export const ContentsWrapper = styled.div`
   a {
     font-size: 1rem;
     font-weight: 400;
-    width: 100px;
+    width: 200px;
     margin-bottom: 0.5rem;
     color: #d1d5db;
     text-decoration: none;
